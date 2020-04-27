@@ -57,8 +57,8 @@
 }
 
 .list-item1 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 20px;
   margin-right: 130px;
   background-color: #eef0f2;
@@ -68,14 +68,13 @@
   grid-template-areas:
     'title title '
     'image desc';
-  /* border-width: 0.2px;
-  border-style: dotted;
-  border-color: #333333; */
+  border: #333333;
+  border-color: #333333;
 }
 
 .list-item2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 210px;
   margin-right: 30px;
   background-color: #eef0f2;
@@ -85,14 +84,11 @@
   grid-template-areas:
     'title title'
     'image desc';
-  /* border-width: 0.2px;
-  border-style: dotted;
-  border-color: #333333; */
 }
 
 .list-item3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 100px;
   margin-right: 80px;
   background-color: #eef0f2;
@@ -102,9 +98,6 @@
   grid-template-areas:
     'title title'
     'desc image';
-  /* border-width: 0.2px;
-  border-style: dotted;
-  border-color: #333333; */
 }
 
 .portfolio-image {

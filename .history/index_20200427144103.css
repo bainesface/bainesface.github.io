@@ -1,0 +1,52 @@
+.body {
+  display: grid;
+  grid-template-rows: 100px auto;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    'header'
+    'main';
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.header {
+  grid-area: header;
+  background-color: #f79d65;
+  margin: 0;
+  width: 100%;
+}
+
+.title {
+  font-size: 30pt;
+  color: #333333;
+  font-family: 'PT Sans';
+}
+
+.menu {
+  font-size: 15pt;
+  font-family: 'PT Sans';
+  text-decoration: none;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 15pt;
+  font-family: 'PT Sans';
+}
+
+.portfolio-image {
+  height: 260px;
+  width: 400px;
+}
+
+.projects-list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #333333;
+  padding: 20px;
+  margin: 20px;
+}

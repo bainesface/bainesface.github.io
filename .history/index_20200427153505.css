@@ -1,6 +1,6 @@
 .body {
   display: grid;
-  grid-template-rows: 120px 50px auto;
+  grid-template-rows: 100px 50px auto;
   grid-template-columns: 100%;
   grid-template-areas:
     'header'
@@ -19,7 +19,6 @@
 }
 
 .title {
-  margin-top: 1em;
   font-size: 30pt;
   color: #ffffff;
   font-family: 'PT Sans';
@@ -57,74 +56,41 @@
 }
 
 .list-item1 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 130px;
+  margin: 20px;
   background-color: #eef0f2;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50px auto;
   grid-template-areas:
-    'title title '
+    'image title '
     'image desc';
-  /* border-width: 0.2px;
-  border-style: dotted;
-  border-color: #333333; */
 }
 
 .list-item2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 210px;
-  margin-right: 30px;
   background-color: #eef0f2;
   display: grid;
-  grid-template-columns: 2fr 3fr;
-  grid-template-rows: 1fr 4fr;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50px auto;
   grid-template-areas:
-    'title title'
+    'image title'
     'image desc';
-  /* border-width: 0.2px;
-  border-style: dotted;
-  border-color: #333333; */
-}
-
-.list-item3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 100px;
-  margin-right: 80px;
-  background-color: #eef0f2;
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  grid-template-rows: 1fr 4fr;
-  grid-template-areas:
-    'title title'
-    'desc image';
-  /* border-width: 0.2px;
-  border-style: dotted;
-  border-color: #333333; */
 }
 
 .portfolio-image {
+  height: 260px;
+  width: 400px;
   grid-area: image;
-  align-self: center;
-  margin-left: 40px;
-  margin-right: 40px;
-  justify-content: center;
-  justify-self: center;
-  justify-items: center;
-  align-items: center;
-  align-content: center;
-  margin-bottom: 30px;
+  margin-left: 60px;
+  margin-top: 100px;
 }
 
 .project-title {
   font-family: 'PT Sans';
   grid-area: title;
+  padding: 15px;
   color: #333333;
-  text-align: center;
+  margin: 0;
+  text-align: left;
 }
 
 .project-description {

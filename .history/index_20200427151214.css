@@ -1,0 +1,79 @@
+.body {
+  display: grid;
+  grid-template-rows: 100px 40px auto;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    'header'
+    'nav'
+    'main';
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.header {
+  grid-area: header;
+  background-color: #f79d65;
+  margin: 0;
+  width: 100%;
+}
+
+.title {
+  font-size: 30pt;
+  color: #333333;
+  font-family: 'PT Sans';
+}
+
+.menu {
+  grid-area: nav;
+  font-size: 15pt;
+  padding: 7.5px;
+  font-family: 'PT Sans';
+  text-decoration: none;
+  text-align: center;
+  background-color: #e5be9e;
+}
+
+.link {
+  text-decoration: none;
+  color: #333333;
+  /* padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px; */
+  padding: 15px;
+}
+
+.main {
+  grid-area: main;
+}
+
+.projects-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.list-item1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30px auto;
+  grid-template-areas:
+    'image title'
+    'image desc';
+}
+
+.portfolio-image {
+  height: 260px;
+  width: 400px;
+  grid-area: image;
+}
+
+.project-title {
+  font-family: 'PT Sans';
+  grid-area: title;
+}
+
+.paragraph {
+  font-size: 15pt;
+  font-family: 'PT Sans';
+}

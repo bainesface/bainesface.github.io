@@ -1,0 +1,40 @@
+.body {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 150px auto;
+  grid-template-areas:
+    'header header header header'
+    'main main main main';
+}
+
+.title {
+  font-size: 30pt;
+  color: #333333;
+  font-family: 'PT Sans';
+}
+
+.menu {
+  font-size: 15pt;
+  font-family: 'PT Sans';
+  text-decoration: none;
+}
+
+.paragraph {
+  font-size: 15pt;
+  font-family: 'PT Sans';
+}
+
+.portfolio-image {
+  height: 260px;
+  width: 400px;
+}
+
+.header {
+  background-color: #f79d65;
+  margin: 0;
+  width: 100%;
+}
+
+.projects-list {
+  list-style: none;
+}
