@@ -7,19 +7,9 @@
 .menu {
   font-size: 15pt;
   font-family: 'PT Sans';
-  text-decoration: none;
 }
 
 .paragraph {
   font-size: 15pt;
   font-family: 'PT Sans';
-}
-
-.portfolio-image {
-  height: 260px;
-  width: 400px;
-}
-
-.projects-list {
-  list-style: none;
 }

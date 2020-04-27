@@ -16,10 +16,6 @@
 }
 
 .portfolio-image {
-  height: 260px;
+  height: 200px;
   width: 400px;
-}
-
-.projects-list {
-  list-style: none;
 }
