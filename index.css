@@ -71,7 +71,7 @@
 }
 
 .list-item1 {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   margin-left: 1em;
   margin-right: 1em;
   background-color: #eef0f2;
@@ -310,6 +310,62 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.form-name {
+  margin-top: 1em;
+  width: 23em;
+  border: none;
+  margin-bottom: 0.2em;
+}
+
+.form-input {
+  margin-top: 1em;
+  width: 23em;
+  border: none;
+  margin-bottom: 0.2em;
+}
+
+.form-message {
+  margin-top: 1em;
+  width: 23em;
+  border: none;
+  text-decoration: none;
+  margin-bottom: 0.2em;
+}
+
+.contact-form-label {
+  font-size: 13px;
+  margin: 1em;
+  border-bottom-style: solid;
+  border-bottom-color: #f79d65;
+}
+
+.get-in-touch {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.get-in-touch-text {
+  font-size: 15px;
+  text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.send-button {
   background-color: #eef0f2;
-  margin: 50px;
+  border-radius: 10px;
+  border: none;
+  color: #333333;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.send-button:hover {
+  background-color: #f79d65;
+  color: #ffffff;
 }

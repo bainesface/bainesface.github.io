@@ -22,24 +22,32 @@
       <a href="contact.html" class="link">about</a>
     </nav>
 
-    <!-- <p class="get-in-touch"><center>Get in touch!</center></p> -->
+    <h2 class="get-in-touch">Get in Touch!</h2>
+    <p class="get-in-touch-text">
+      Want to know about my work? Collaborate on a cool project? Have a job
+      opening you think I'd be suitable for? Get in touch via the form below and
+      I'll reply ASAP.
+    </p>
     <form
       class="contact-form"
       action="https://formspree.io/xyynjypo"
       method="POST"
     >
-      <label>Get in touch!</label>
-      <label
+      <label class="contact-form-label"
         >Your name:
+        <br />
         <input
           class="form-name"
           type="text"
           name="name"
           placeholder="name"
           required
-      /></label>
-      <label
+        />
+      </label>
+      <br />
+      <label class="contact-form-label"
         >Your email:
+        <br />
         <input
           class="form-input"
           type="text"
@@ -47,8 +55,10 @@
           placeholder="email"
           required
       /></label>
-      <label
+      <br />
+      <label class="contact-form-label"
         >Your message:
+        <br />
         <textarea
           class="form-message"
           name="message"
@@ -56,7 +66,7 @@
           required
         ></textarea>
       </label>
-      <button type="submit" value="send">Send</button>
+      <button class="send-button" type="submit" value="send">Send</button>
     </form>
   </body>
 </html>
