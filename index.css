@@ -96,7 +96,7 @@
 }
 
 .list-item2 {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   margin-left: 1em;
   margin-right: 1em;
   background-color: #eef0f2;
@@ -208,6 +208,11 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 0;
+}
+
+.tech-list-header {
+  padding-top: 1em;
+  font-size: 15px;
 }
 
 .tech-list-item {
