@@ -12,25 +12,51 @@
     <header class="header">
       <a href="index.html" class="header-link">
         <h1 class="title">
-          <center>SARAH BAINES</center>
+          SARAH BAINES
         </h1>
       </a>
     </header>
     <nav class="menu">
+      <a href="index.html" class="link">projects</a>
       <a href="about.html" class="link">about</a>
-      <!-- <a href="web.html">web</a>
-      <a href="app.html">app</a> -->
-      <a href="contact.html" class="link">contact</a>
+      <a href="contact.html" class="link">about</a>
     </nav>
 
-    <p class="paragraph"><center>get in touch!</center></p>
-    <form action="contact me">
-      <center>
-        <input type="text" placeholder="name" />
-        <input type="text" placeholder="email" />
-        <input tupe="text" placeholder="message" />
-        <button type="submit">submit</button>
-      </center>
+    <!-- <p class="get-in-touch"><center>Get in touch!</center></p> -->
+    <form
+      class="contact-form"
+      action="https://formspree.io/xyynjypo"
+      method="POST"
+    >
+      <label>Get in touch!</label>
+      <label
+        >Your name:
+        <input
+          class="form-name"
+          type="text"
+          name="name"
+          placeholder="name"
+          required
+      /></label>
+      <label
+        >Your email:
+        <input
+          class="form-input"
+          type="text"
+          name="_replyto"
+          placeholder="email"
+          required
+      /></label>
+      <label
+        >Your message:
+        <textarea
+          class="form-message"
+          name="message"
+          placeholder="message"
+          required
+        ></textarea>
+      </label>
+      <button type="submit" value="send">Send</button>
     </form>
   </body>
 </html>
