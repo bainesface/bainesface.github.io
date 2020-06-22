@@ -8,107 +8,207 @@
     <title>My Portfolio Site</title>
   </head>
 
-  
   <body class="body">
 
+ 
     <header class="header">
-    <a href="index.html"></a>
-      <h1 class="title">
-       SARAH BAINES
-      </h1>
-    </a>
-   </header> 
-   
-   <nav class="menu">
-    <a href="index.html" class="link">Projects</a>
-      <a href="about.html" class="link">About</a>
-      <a href="contact.html" class="link">Contact</a>
-    </nav>
+      <a href="index.html" class="header-link">
+        <h1 class="title">
+          SARAH BAINES
+        </h1>
+      </a><span>
+      <nav class="menu">
+      <a href="#about" class="link">ABOUT</a>
+      <a href="#projects" class="link">PROJECTS</a>
+      <a href="#contact" class="link">CONTACT</a>
+    </nav></span>
+    </header>
+       
+  
+    <main class='main'>
+    <section class="aboutMe" id="about">
+      <img class="me" src="./img/me.jpg" alt='photo of Sarah looking very pleased with her allotment grown cauliflower'/>
+      <p class="who">
+       <svg class='arrow' xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-left">
+          <line x1="17" y1="7" x2="7" y2="17"></line>
+          <polyline points="17 17 7 17 7 7"></polyline>
+        </svg>  Who even is this? </p>
+    <p class="about-me-text">
+      Hello! I'm Sarah, a creative type with a busy brain. I have a passion for learning be it beginning something new or deepening my understanding of a topic. 
+      </br>
+      </br>
+      When I not programming you'll find me either making ceramics or down the allotment!
+      </p>
+    </section>
 
-    <section class='main'>
-
-      <ul class='projects-list'>
-
+    <section class="projects-area" id="projects">
+      <h2 class="projects-title">PROJECTS</h2>
+      <ul class="projects-list">
         <li class="list-item1">
-          <h2 class='project-title'>Live Art</h2>
-          <img class='portfolio-image1' src="./img/liveart.png"  />
-          <div class='project-description-container1'>
-            <p class='project-description1'>A response to the DEV community 'Grant for the Web' hackathon centered around web monetization. Live Art is a full stack web app that allows supporters to view a live art canvas and make micro payments direct to the artist.
-            <br />
-            <br />
-            Built remotely, alongside another developer, VS Code Live Share and Git Hub Projects were used for effective collaboration.
+          <h3 class='project-title'>LIVE ART</h3>
+          <img class="portfolio-image1" src="./img/liveart.png" />
+            <p class="project-description1">
+              A response to the DEV community 'Grant for the Web' hackathon
+              centered around web monetization. Live Art is a full stack web app
+              that allows supporters to view a live art canvas and make micro
+              payments direct to the artist.
+              <br />
+              <br />
+              Built remotely, alongside another developer, VS Code Live Share
+              and Git Hub Projects were used for effective collaboration and agile development.
             </p>
-            <h3 class='tech-list-header'>Tech Stack</h3>
-            <ul class='tech-list'>
-              <li class='tech-list-item'>JavaScript</li>
-              <li class='tech-list-item'>React</li>
-              <li class='tech-list-item'>Socket.io</li>
-              <li class='tech-list-item'>Canvas API</li>
-              <li class='tech-list-item'>Express</li>
-              <li class='tech-list-item'>Node</li>
-              <li class='tech-list-item'>Mongo DB</li>
-              <li class='tech-list-item'>Mongoose</li>
-            </ul>
-          </div>  
+         
+          <h4 class="tech-list-header">Tech Stack</h4>
+          <ul class="tech-list">
+              <li class="tech-list-item">JavaScript</li>
+              <li class="tech-list-item">React</li>
+              <li class="tech-list-item">Socket.io</li>
+              <li class="tech-list-item">Canvas API</li>
+              <li class="tech-list-item">Express</li>
+              <li class="tech-list-item">Node</li>
+              <li class="tech-list-item">Mongo DB</li>
+              <li class="tech-list-item">Mongoose</li>
+          </ul>       
           <div class="links-to-code">
-            <a href='https://live-art.herokuapp.com/'>Front-end hosted</a>
-            <a href='https://github.com/bainesface/live-art'>Front-end repository</a>
-            <a href='https://github.com/bainesface/live-art-backend'>Back-end repository</a>
-            <a href='https://live-art-backend.herokuapp.com/'>Back-end hosted</a>
+            <a href="https://live-art.herokuapp.com/">Front-end hosted</a>
+            <a href="https://github.com/bainesface/live-art"
+              >Front-end repository</a
+            >
+            <a href="https://github.com/bainesface/live-art-backend"
+              >Back-end repository</a
+            >
+            <a href="https://live-art-backend.herokuapp.com/"
+              >Back-end hosted</a
+            >
           </div>
         </li>
 
-        <li class='list-item2'><h2 class='project-title'>reCharge</h2>
-       <img src="./img/reCharge.png" class="portfolio-image2"  />
-        <div class="project-description-container2">
-        <p class='project-description2'>A full stack mobile app built to assist owners of electric cars in their journey planning. Users can generate a route planner based on how often they need access to a charge point. The app also allows the user to view ammenities local to each charge point. 
-        <br/>
-        <br/>  
-        reCharge was a collaborative project, created with three other Northcoders students during the final two weeks of the bootcamp and using agile practices.</p>
-        <div class='tech-list-container2'>
-        <h3 class='tech-list-header'>Tech Stack</h3>
-        <ul class='tech-list'>
-          <li class='tech-list-item'>Dart</li>
-          <li class='tech-list-item'>Flutter</li>
-          <li class='tech-list-item'>Google Maps API</li>
-          <li class='tech-list-item'>Rapid Charge API</li>
-          <li class='tech-list-item'>Ruby</li>
-          <li class='tech-list-item'>Rails</li>
-          <li class='tech-list-item'>PostgresSQL</li>
-          <li class='tech-list-item'>Heroku</li>
-        </ul></div>
-        </div>
-        <div class="links-to-code">
-          <a href='https://www.youtube.com/watch?v=4RUl9N7pYt4'>Presentation</a>
-        </div>
-      </li>
-
-        <li class='list-item1'>
-          <h2 class='project-title'>Topical</h2>
-          <img class="portfolio-image1" src="./img/topical.png"/>
-          <div class='project-description-container1'>
-            <p class='project-description1'>A full stack Reddit style news web app made during the Northcoders 'Developer Pathway' bootcamp.
+        <li class="list-item2">
+          <h3 class="project-title">RECHARGE</h3>
+          <img src="./img/reCharge.png" class="portfolio-image2" />
+      
+            <p class="project-description2">
+              A full stack mobile app built to assist owners of electric cars in
+              their journey planning. Users can generate a route planner based
+              on how often they need access to a charge point. The app also
+              allows the user to view ammenities local to each charge point.
+              <br />
+              <br />
+              reCharge was a collaborative project, created with three other
+              Northcoders students during the final two weeks of the bootcamp
+              and using agile practices.
             </p>
-            <h3 class='tech-list-header'>Tech Stack</h3>
-            <ul class='tech-list'>
-              <li class='tech-list-item'>JavaScript</li>
-              <li class='tech-list-item'>React</li>
-              <li class='tech-list-item'>Mocha</li>
-              <li class='tech-list-item'>Chai</li>
-              <li class='tech-list-item'>Express</li>
-              <li class='tech-list-item'>Node</li>
-              <li class='tech-list-item'>PostgresSQL</li>
-              <li class='tech-list-item'>Knex.js</li>
-            </ul>
-          </div>
+        
+              <h4 class="tech-list-header">Tech Stack</h4>
+              <ul class="tech-list">
+                <li class="tech-list-item">Dart</li>
+                <li class="tech-list-item">Flutter</li>
+                <li class="tech-list-item">Google Maps API</li>
+                <li class="tech-list-item">Rapid Charge API</li>
+                <li class="tech-list-item">Ruby</li>
+                <li class="tech-list-item">Rails</li>
+                <li class="tech-list-item">PostgresSQL</li>
+                <li class="tech-list-item">Heroku</li>
+              </ul>
+      
           <div class="links-to-code">
-            <a href='https://github.com/bainesface/NCNews-fe'>Front-end hosted</a>
-            <a href='https://bainesface-topical-news.netlify.app/'>Front-end repository</a>
-            <a href='https://github.com/bainesface/backend_news'>Back-end repository</a>
-            <a href='https://bainesface-app.herokuapp.com/api'>Back-end hosted</a>
+            <a href="https://www.youtube.com/watch?v=4RUl9N7pYt4"
+              >Presentation</a
+            >
+          </div>
+        </li>
+
+        <li class="list-item1">
+          <h3 class="project-title">TOPICAL</h3>
+          <img class="portfolio-image1" src="./img/topical.png" />
+      
+            <p class="project-description1">
+              A full stack Reddit style news web app made during the Northcoders
+              'Developer Pathway' bootcamp.
+            </p>
+            <h4 class="tech-list-header">Tech Stack</h4>
+            <ul class="tech-list">
+              <li class="tech-list-item">JavaScript</li>
+              <li class="tech-list-item">React</li>
+              <li class="tech-list-item">Mocha</li>
+              <li class="tech-list-item">Chai</li>
+              <li class="tech-list-item">Express</li>
+              <li class="tech-list-item">Node</li>
+              <li class="tech-list-item">PostgresSQL</li>
+              <li class="tech-list-item">Knex.js</li>
+            </ul>
+  
+          <div class="links-to-code">
+            <a href="https://github.com/bainesface/NCNews-fe"
+              >Front-end hosted</a
+            >
+            <a href="https://bainesface-topical-news.netlify.app/"
+              >Front-end repository</a
+            >
+            <a href="https://github.com/bainesface/backend_news"
+              >Back-end repository</a
+            >
+            <a href="https://bainesface-app.herokuapp.com/api"
+              >Back-end hosted</a
+            >
           </div>
         </li>
       </ul>
     </section>
-  </body>
+
+    <section class="contactme" id="contact">
+      <h2 class="get-in-touch">GET IN TOUCH!</h2>
+      <p class="get-in-touch-text">
+        Want to know about my work? Collaborate on a cool project? Have a job
+        opening you think I'd be suitable for? Get in touch via the form below
+        and I'll reply ASAP.
+      </p>
+      <form
+        class="contact-form"
+        action="https://formspree.io/xyynjypo"
+        method="POST"
+      >
+        <label class="contact-form-label"
+          >Your name:
+          <br />
+          <input
+            class="form-name"
+            type="text"
+            name="name"
+            placeholder="name"
+            required
+          />
+        </label>
+        <br />
+        <label class="contact-form-label"
+          >Your email:
+          <br />
+          <input
+            class="form-input"
+            type="text"
+            name="_replyto"
+            placeholder="email"
+            required
+        /></label>
+        <br />
+        <label class="contact-form-label"
+          >Your message:
+          <br />
+          <textarea
+            class="form-message"
+            name="message"
+            placeholder="message"
+            required
+          ></textarea>
+        </label>
+        <button class="send-button" type="submit" value="send">Send</button>
+      </form>
+    </section>
+    </main>
+ 
+  <footer class='footer'>
+    <p>Designed and made by Sarah Baines 2020</p>
+  </footer> 
+</body>
 </html>
