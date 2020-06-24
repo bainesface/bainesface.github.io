@@ -19,7 +19,7 @@
   margin-left: 0;
   margin-bottom: 3em;
   border: none;
-  font-family: 'PT Sans';
+  font-family: 'PTSans-Regular';
   font-size: 12px;
 }
 
@@ -40,7 +40,7 @@
 .title {
   font-size: 19pt;
   color: #ffffff;
-  font-family: 'PT Sans';
+  font-family: 'PTSans-Regular';
   text-align: center;
   letter-spacing: 0.11em;
   margin-right: 0;
