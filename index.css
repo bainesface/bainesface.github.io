@@ -146,7 +146,7 @@
   justify-self: center;
   justify-items: center;
   letter-spacing: 0.06em;
-  font-size: 1em;
+  font-size: 1.2em;
   padding-left: 1em;
 }
 
@@ -597,7 +597,7 @@
 
 .form-name {
   margin-top: 1em;
-  width: 28em;
+  width: 26em;
   border: none;
   margin-bottom: 0.2em;
   font-size: 1.4em;
@@ -606,7 +606,7 @@
 
 .form-input {
   margin-top: 1em;
-  width: 23em;
+  width: 26em;
   border: none;
   margin-bottom: 0.2em;
   font-size: 1.4em;
@@ -615,7 +615,7 @@
 
 .form-message {
   margin-top: 1em;
-  width: 23em;
+  width: 26em;
   border: none;
   text-decoration: none;
   margin-bottom: 0.2em;
