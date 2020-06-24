@@ -146,7 +146,7 @@
   justify-self: center;
   justify-items: center;
   letter-spacing: 0.06em;
-  font-size: 1em;
+  font-size: 0.8em;
   padding-left: 1em;
 }
 
@@ -600,7 +600,7 @@
   width: 23em;
   border: none;
   margin-bottom: 0.2em;
-  font-size: 1.2em;
+  font-size: 1.4em;
   letter-spacing: 0.06em;
 }
 
@@ -609,7 +609,7 @@
   width: 23em;
   border: none;
   margin-bottom: 0.2em;
-  font-size: 1.2em;
+  font-size: 1.4em;
   letter-spacing: 0.06em;
 }
 
@@ -620,7 +620,7 @@
   text-decoration: none;
   margin-bottom: 0.2em;
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.4em;
   letter-spacing: 0.06em;
 }
 
@@ -659,9 +659,8 @@
   padding-bottom: 0.5em;
   padding-right: 1em;
   padding-left: 1em;
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-top: 1em;
-  font-size: 1.2em;
   letter-spacing: 0.06em;
 }
 
