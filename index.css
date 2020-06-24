@@ -106,7 +106,7 @@
   background-color: #f79d65;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 0.5fr 2.5fr 2fr;
+  grid-template-rows: 0.5fr 3fr 2fr;
   grid-template-areas:
     'who who'
     'pic about'
@@ -146,7 +146,7 @@
   justify-self: center;
   justify-items: center;
   letter-spacing: 0.06em;
-  font-size: 0.8em;
+  font-size: 1em;
   padding-left: 1em;
 }
 
