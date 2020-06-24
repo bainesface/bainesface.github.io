@@ -333,6 +333,7 @@
   margin-left: 1em;
   margin-right: 1em;
   text-align: center;
+  text-decoration: none;
 }
 
 .links-to-code {
@@ -359,7 +360,6 @@
   border-radius: 10px;
   color: #ffffff;
   text-decoration: none;
-  width: 14em;
   font-size: 1.2em;
   font-weight: bold;
   letter-spacing: 0.02em;
