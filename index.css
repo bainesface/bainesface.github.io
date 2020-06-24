@@ -309,7 +309,7 @@
 
 .project-title {
   grid-area: title;
-  font-family: 'PT Sans';
+  font-family: 'PTSans-Regular';
   text-align: center;
   border-bottom-style: solid;
   border-bottom-width: 0.5px;
@@ -347,7 +347,7 @@
 }
 
 .links-to-code {
-  font-family: 'PT Sans';
+  font-family: 'PTSans-Regular';
   grid-area: links;
   display: flex;
   margin-left: 2em;
@@ -428,7 +428,7 @@
   border: none;
   text-decoration: none;
   margin-bottom: 0.2em;
-  font-family: 'PT Sans';
+  font-family: 'PTSans-Regular';
 }
 
 .contact-form-label {
