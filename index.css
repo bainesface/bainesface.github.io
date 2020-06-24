@@ -269,7 +269,7 @@
 @media only screen and (min-width: 1200px) {
   .projects-title {
     font-size: 1.7em;
-    padding-bottom: em;
+    padding-bottom: 1em;
   }
 }
 .projects-list {
@@ -677,6 +677,23 @@
   }
 }
 
+@media only screen and (min-width: 1100px) {
+  .form-name {
+    font-size: 1em;
+  }
+
+  .form-input {
+    font-size: 1em;
+  }
+
+  .form-message {
+    font-size: 1em;
+  }
+
+  .contact-form-label {
+    font-size: 0.8em;
+  }
+}
 /* FOOTER */
 
 .footer {
@@ -684,6 +701,7 @@
   margin-top: 2em;
   margin-bottom: 3em;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 @media only screen and (min-width: 1250px) {
