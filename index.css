@@ -26,7 +26,7 @@
   width: 100%;
   align-items: center;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 100px;
 }
 
@@ -36,7 +36,10 @@
   font-family: 'PT Sans';
   text-align: center;
   letter-spacing: 0.11em;
-  margin: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2em;
 }
 
 .title:hover {
@@ -49,6 +52,7 @@
   justify-content: center;
   align-items: center;
   height: 100px;
+  margin-right: 2em;
 }
 
 .menu > a {
@@ -73,20 +77,14 @@
   color: #eef0f2;
 }
 
-@media only screen and (min-width: 1000px) {
-  .header {
-    justify-content: space-between;
-  }
-
+@media only screen and (min-width: 800px) {
   .title {
     font-size: 22px;
     letter-spacing: 0.11em;
-    margin-left: 2em;
   }
 
   .menu {
     font-size: 18px;
-    margin-right: 2em;
   }
 }
 
@@ -145,6 +143,13 @@
   margin-left: 4em;
   align-self: center;
   justify-self: right;
+}
+
+@media only screen and (min-width: 850px) {
+  .aboutMe {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
