@@ -112,7 +112,6 @@
   font-weight: bold;
   letter-spacing: 0.07em;
   text-align: left;
-  padding-right: 3em;
   margin-bottom: 0;
   align-self: flex-end;
   font-size: 1.5em;
@@ -366,7 +365,7 @@
   font-size: 1.2em;
   font-weight: bold;
   letter-spacing: 0.02em;
-  width: 20em;
+  width: 18em;
 }
 
 .links-to-code > a:hover {
