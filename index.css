@@ -106,7 +106,7 @@
   background-color: #f79d65;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 0.5fr 2fr 2fr;
+  grid-template-rows: 0.5fr 2.5fr 2fr;
   grid-template-areas:
     'who who'
     'pic about'
