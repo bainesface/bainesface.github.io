@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'PTSans-Regular';
+  src: url('PTSans-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .body {
   display: grid;
   width: 100%;
